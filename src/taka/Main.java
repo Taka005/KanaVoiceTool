@@ -9,28 +9,28 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-public class Main extends JFrame {
+public class Main extends JFrame{
 
-	public static void main(String[] args) {
-		try {
+	public static void main(String[] args){
+		try{
 			Main frame = new Main();
 			frame.setVisible(true);
-		} catch (Exception e) {
+		}catch(Exception e){
 			e.printStackTrace();
 		}
 	}
 
-	public Main() {
-		setBackground(new Color(255, 255, 255));
+	public Main(){
+		setBackground(new Color(255,255,255));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Main.class.getResource("/assets/icon.png")));
 		setTitle("KanaVoiceTool");
-		setBounds(100, 100, 800, 511);
+		setBounds(100,100,800,511);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JLabel title = new JLabel("Kana Voice Tool");
-		title.setFont(new Font("MV Boli", Font.PLAIN, 30));
+		title.setFont(new Font("MV Boli",Font.PLAIN, 30));
 		title.setHorizontalAlignment(SwingConstants.CENTER);
-		getContentPane().add(title, BorderLayout.NORTH);
+		getContentPane().add(title,BorderLayout.NORTH);
 
 	}
 
