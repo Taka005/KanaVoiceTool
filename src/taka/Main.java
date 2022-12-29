@@ -24,7 +24,7 @@ public class Main extends JFrame{
 		setBackground(new Color(255,255,255));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Main.class.getResource("/assets/icon.png")));
 		setTitle("KanaVoiceTool");
-		setBounds(100,100,800,511);
+		setBounds(100,100,808,518);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JLabel title = new JLabel("Kana Voice Tool");
