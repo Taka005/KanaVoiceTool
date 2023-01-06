@@ -45,7 +45,7 @@ public class Main extends JFrame{
 		
 		send.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
-				System.out.println("Test");
+				System.out.println(message.getText());
 			}
 		});
 	}
